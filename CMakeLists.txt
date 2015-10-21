@@ -80,3 +80,4 @@ include (CPack)
 
 # enable dashboard scripting
 include (CTest)
+

@@ -962,7 +962,7 @@ clean: CMakeFiles/NightlyUpdate.dir/clean
 CMakeFiles/Tutorial.dir/all: MathFunctions/CMakeFiles/MathFunctions.dir/all
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/depend
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/democtest/CMakeFiles --progress-num=6,7 "Built target Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/democtest/CMakeFiles --progress-num=6,7,8 "Built target Tutorial"
 .PHONY : CMakeFiles/Tutorial.dir/all
 
 # Include target in all.
@@ -972,7 +972,7 @@ all: CMakeFiles/Tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/democtest/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/democtest/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Tutorial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/democtest/CMakeFiles 0
 .PHONY : CMakeFiles/Tutorial.dir/rule
@@ -981,6 +981,16 @@ CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
 Tutorial: CMakeFiles/Tutorial.dir/rule
 
 .PHONY : Tutorial
+
+# Pre-install relink rule for target.
+CMakeFiles/Tutorial.dir/preinstall:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/preinstall
+.PHONY : CMakeFiles/Tutorial.dir/preinstall
+
+# Prepare target for install.
+preinstall: CMakeFiles/Tutorial.dir/preinstall
+
+.PHONY : preinstall
 
 # clean rule for target.
 CMakeFiles/Tutorial.dir/clean:
