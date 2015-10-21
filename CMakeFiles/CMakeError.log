@@ -1,0 +1,46 @@
+Determining if the function log exists failed with the following output:
+Change Dir: /home/daniel/democtest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_046fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_046fd.dir/build.make CMakeFiles/cmTC_046fd.dir/build
+make[1]: Entering directory `/home/daniel/democtest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_046fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_046fd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’ [enabled by default]
+/usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_046fd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046fd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log    CMakeFiles/cmTC_046fd.dir/CheckFunctionExists.c.o  -o cmTC_046fd -rdynamic 
+CMakeFiles/cmTC_046fd.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `log'
+make[1]: Leaving directory `/home/daniel/democtest/CMakeFiles/CMakeTmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_046fd] Error 1
+make: *** [cmTC_046fd/fast] Error 2
+
+
+Determining if the function exp exists failed with the following output:
+Change Dir: /home/daniel/democtest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a454f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a454f.dir/build.make CMakeFiles/cmTC_a454f.dir/build
+make[1]: Entering directory `/home/daniel/democtest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a454f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=exp   -o CMakeFiles/cmTC_a454f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp’ [enabled by default]
+/usr/local/share/cmake-3.4/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_a454f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a454f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp    CMakeFiles/cmTC_a454f.dir/CheckFunctionExists.c.o  -o cmTC_a454f -rdynamic 
+CMakeFiles/cmTC_a454f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `exp'
+make[1]: Leaving directory `/home/daniel/democtest/CMakeFiles/CMakeTmp'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_a454f] Error 1
+make: *** [cmTC_a454f/fast] Error 2
+
+

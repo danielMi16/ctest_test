@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20151021-1239-Experimental"
+	Name="daniel-VirtualBox"
+	Generator="ctest-3.4.0-rc1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="4.8.4"
+	OSName="Linux"
+	Hostname="daniel-VirtualBox"
+	OSRelease="3.19.0-25-generic"
+	OSVersion="#26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="60"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="1"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="1021"
+	TotalPhysicalMemory="3009"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2594.01"
+	>
+	<Configure>
+		<StartDateTime>Oct 21 14:39 CEST</StartDateTime>
+		<StartConfigureTime>1445431171</StartConfigureTime>
+		<ConfigureCommand>"/usr/local/bin/cmake" "/home/daniel/democtest"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daniel/democtest
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Oct 21 14:39 CEST</EndDateTime>
+		<EndConfigureTime>1445431171</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/democtest/MathFunctions/MathFunctions.h
+
+/home/daniel/democtest/MathFunctions/Table.h
+
+/home/daniel/democtest/MathFunctions/mysqrt.cxx
+stdio.h
+-
+MathFunctions.h
+/home/daniel/democtest/MathFunctions/MathFunctions.h
+TutorialConfig.h
+/home/daniel/democtest/MathFunctions/TutorialConfig.h
+Table.h
+/home/daniel/democtest/MathFunctions/Table.h
+math.h
+-
+
+TutorialConfig.h
+

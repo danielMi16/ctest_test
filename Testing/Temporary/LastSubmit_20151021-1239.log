@@ -1,0 +1,9 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Test.xml
+Using drop method: http
+	Upload file: /home/daniel/democtest/Testing/20151021-1239/Build.xml to daniel-VirtualBox___Linux-c++___20151021-1239-Experimental___XML___Build.xml
+	Upload file: /home/daniel/democtest/Testing/20151021-1239/Configure.xml to daniel-VirtualBox___Linux-c++___20151021-1239-Experimental___XML___Configure.xml
+	Upload file: /home/daniel/democtest/Testing/20151021-1239/Test.xml to daniel-VirtualBox___Linux-c++___20151021-1239-Experimental___XML___Test.xml
+   Submission successful

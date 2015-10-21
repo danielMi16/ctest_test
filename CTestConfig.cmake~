@@ -1,0 +1,9 @@
+set (CTEST_PROJECT_NAME "Tutorial")
+set(CTEST_NIGHTLY_START_TIME "01:00:00 UTC")
+
+
+set(CTEST_DROP_METHOD "http")
+set(CTEST_DROP_SITE "10.176.211.91")
+set(CTEST_DROP_LOCATION "/cdash/CDash-2-2-3/submit.php?project=Tutorial")
+set(CTEST_DROP_SITE_CDASH TRUE)
+

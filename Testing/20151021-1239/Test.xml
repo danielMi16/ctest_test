@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20151021-1239-Experimental"
+	Name="daniel-VirtualBox"
+	Generator="ctest-3.4.0-rc1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="4.8.4"
+	OSName="Linux"
+	Hostname="daniel-VirtualBox"
+	OSRelease="3.19.0-25-generic"
+	OSVersion="#26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="60"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="1"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="1021"
+	TotalPhysicalMemory="3009"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2594.01"
+	>
+	<Testing>
+		<StartDateTime>Oct 21 14:39 CEST</StartDateTime>
+		<StartTestTime>1445431171</StartTestTime>
+		<TestList>
+			<Test>./TutorialRuns</Test>
+			<Test>./TutorialUsage</Test>
+			<Test>./TutorialComp4</Test>
+			<Test>./TutorialComp9</Test>
+			<Test>./TutorialComp5</Test>
+			<Test>./TutorialComp7</Test>
+			<Test>./TutorialComp25</Test>
+			<Test>./TutorialComp-25</Test>
+			<Test>./TutorialComp0.0001</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>TutorialRuns</Name>
+			<Path>.</Path>
+			<FullName>./TutorialRuns</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000743866</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "25"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwMlUoyVdISlUwNOZyxi1rrmdiZmhqgk+JqZ6JgZkBXlNM9QwMTY1MCSgBAiO8SgZEMiQjFShcmliUqlCUnw+TzSwGSgEABxhrWQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialUsage</Name>
+			<Path>.</Path>
+			<FullName>./TutorialUsage</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000814915</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[Usage:.*number
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzTz8jPTdVPSczLTM3RT0nNzU8uSS0u0Q8pLckvykzMUQhLLSrOzM9TMNQz4AotTkxPtVLQJ6AlrzQ3KbWICwDMoCCe====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp4</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp4</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "4"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000741005</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[4 is 2
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "4"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwUSjJV0hKVTDich7BciEZqUDR0sSiVIWi/HyoZGYxUAYA2CtkLg==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp9</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp9</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "9"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000842094</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[9 is 3
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "9"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1OwVCjJV0hKVTDmch7BciEZqUDR0sSiVIWi/HyoZGYxUAYA/fhkcA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp5</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp5</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "5"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000693083</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[5 is 2.236
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "5"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwVSjJV0hKVTDSMzI2MzDnch5VQaKKkIxUoFxpYlGqQlF+PlRJZjFcHgDdfnFJ====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp7</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp7</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "7"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000859976</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[7 is 2.645
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "7"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwVyjJV0hKVTDSMzMxNTflch5VQaKKkIxUoFxpYlGqQlF+PlRJZjFcHgAwM3HC====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp25</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp25</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000619888</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[25 is 5
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "25"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzzs8tKC3JzEtXKC4sKlHIT1MwMlUoyVdISlUwNOZyxi1rrmdiZmhqgk+JqZ6JgZkBXlNM9QwMTY1MCSgBAiO8SgZEMiQjFShcmliUqlCUnw+TzSwGSgEABxhrWQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp-25</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp-25</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "-25"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.000585079</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[-25 is 0
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "-25"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>The square root of -25 is 0
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>TutorialComp0.0001</Name>
+			<Path>.</Path>
+			<FullName>./TutorialComp0.0001</FullName>
+			<FullCommandLine>/home/daniel/democtest/Tutorial "0.0001"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00132298</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Pass Reason">
+					<Value>Required regular expression found.Regex=[0.0001 is 0.01
+]</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/daniel/democtest/Tutorial "0.0001"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNzzEOgzAMheGdU/gE1bNDEnau0AsUKS0M4DaE+9cSCxsef71veaOu36Mt24f2X22kb8IDAFNTmopFtIrdeMckgsXhDEmSe4cUENA7YJCAwQM5Z/DggZxydHwB22d4zrAlsgd2z7nYerxqoap6Rct+ij99LXyL====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 21 14:39 CEST</EndDateTime>
+		<EndTestTime>1445431171</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
