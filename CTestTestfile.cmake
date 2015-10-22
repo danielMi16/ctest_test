@@ -22,3 +22,4 @@ set_tests_properties(TutorialComp-25 PROPERTIES  PASS_REGULAR_EXPRESSION "-25 is
 add_test(TutorialComp0.0001 "Tutorial" "0.0001")
 set_tests_properties(TutorialComp0.0001 PROPERTIES  PASS_REGULAR_EXPRESSION "0.0001 is 0.01")
 subdirs(MathFunctions)
+add_test(AlwaysPass "cal" "1991")
