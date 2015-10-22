@@ -69,7 +69,9 @@ do_test (7 "7 is 2.645")
 do_test (25 "25 is 5")
 do_test (-25 "-25 is 0")
 do_test (0.0001 "0.0001 is 0.02")
-do_test(AlwaysPass "cal 1991")
+
+
+add_test(AlwaysPass "cal" "1991")
 
 # build a CPack driven installer package
 include (InstallRequiredSystemLibraries)
