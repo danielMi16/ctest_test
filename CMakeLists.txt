@@ -81,7 +81,8 @@ include (CPack)
 # enable dashboard scripting
 include (CTest)
 
-add_custom_command(TARGET MainTest
+#automated testing
+add_custom_command(TARGET Tutorial
                    POST_BUILD
                    COMMAND ctest -D Experimental --output-on-failure)
 
