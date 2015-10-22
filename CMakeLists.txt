@@ -85,5 +85,5 @@ include (CTest)
 #automated report sending
 add_custom_command(TARGET Tutorial
                    POST_BUILD
-                   COMMAND ctest -D Experimental --output-on-failure)
+                   COMMAND ctest -D Experimental)
 
