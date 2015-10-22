@@ -68,7 +68,8 @@ do_test (5 "5 is 2.236")
 do_test (7 "7 is 2.645")
 do_test (25 "25 is 5")
 do_test (-25 "-25 is 0")
-do_test (0.0001 "0.0001 is 0.01")
+do_test (0.0001 "0.0001 is 0.02")
+do_test(AlwaysPass "cal 1991")
 
 # build a CPack driven installer package
 include (InstallRequiredSystemLibraries)
@@ -81,7 +82,7 @@ include (CPack)
 # enable dashboard scripting
 include (CTest)
 
-#automated testing
+#automated report sending
 add_custom_command(TARGET Tutorial
                    POST_BUILD
                    COMMAND ctest -D Experimental --output-on-failure)
