@@ -68,7 +68,7 @@ do_test (5 "5 is 2.236")
 do_test (7 "7 is 2.645")
 do_test (25 "25 is 5")
 do_test (-25 "-25 is 0")
-do_test (0.0001 "0.0001 is 0.01")
+do_test (0.0001 "0.0001 is 0.02")
 
 
 add_test(AlwaysPass "cal" "1991")
